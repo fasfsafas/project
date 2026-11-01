@@ -1,0 +1,11 @@
+{
+  "name": "site-app",
+  "packageManager": "yarn@4.18.0",
+  "scripts": {
+    "geron": "cd src && node geron && cd ..",
+    "test": "cd src && yarn tsc && node test && cd .."
+  },
+  "devDependencies": {
+    "typescript": "7.0.2"
+  }
+}
